@@ -1,0 +1,70 @@
+
+==================== FINAL INTERFACE ====================
+2019-02-16 14:16:10.88803237 UTC
+
+interface main:Paths_mEth2dotX 8063
+  interface hash: 62c589b601c84f78bc85cfd8f16bde84
+  ABI hash: 6c7fc3e305c6ff52833c505ff20f3578
+  export-list hash: 21d6ac0e23dd2f7fb43ce744faecf884
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 250146dd23f734a94f3e36d0d3d193b3
+  opt_hash: d0a78e7b344f95c7406be35c9b75e196
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Paths_mEth2dotX.getBinDir
+  Paths_mEth2dotX.getDataDir
+  Paths_mEth2dotX.getDataFileName
+  Paths_mEth2dotX.getDynLibDir
+  Paths_mEth2dotX.getLibDir
+  Paths_mEth2dotX.getLibexecDir
+  Paths_mEth2dotX.getSysconfDir
+  Paths_mEth2dotX.version
+module dependencies:
+package dependencies: base-4.12.0.0* ghc-prim-0.5.3
+                      integer-gmp-1.0.2.0
+orphans: base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity base-4.12.0.0:Data.Monoid
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+import  -/  base-4.12.0.0:Control.Exception 9037ab3ff61dd8119bebad992e069fdd
+import  -/  base-4.12.0.0:Data.Version f466d20c8aa84d587f46a948532be45a
+import  -/  base-4.12.0.0:GHC.Base cc906f98291a1b830546e99a96674547
+import  -/  base-4.12.0.0:GHC.IO edc9355d7dbab399fd5d385cd5bb457d
+import  -/  base-4.12.0.0:GHC.IO.Exception 93698c4949c2bbf15fd7c864b5701916
+import  -/  base-4.12.0.0:Prelude 5c01365ec01f83bd405ac01cbb9a8d76
+import  -/  base-4.12.0.0:System.Environment 2204870ad586be67c274aa49ce9ae53a
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+addDependentFile "/home/ubuntu/.stack/programs/x86_64-linux/ghc-tinfo6-8.6.3/lib/ghc-8.6.3/include/ghcversion.h" c925484e8d952821bd47b962826e23d7
+addDependentFile ".stack-work/dist/x86_64-linux-tinfo6/Cabal-2.4.0.1/build/mEth2dotX-exe/autogen/cabal_macros.h" 1a2cd737f7e4e27dcd0ba8e77ce7782d
+addDependentFile "/usr/include/stdc-predef.h" 6b894370e916ba2f6079d6d62453af6b
+f7f8d2e1329b23f1a0b5ef2334b837c9
+  $trModule :: GHC.Types.Module
+155ecffef5be936f69e62f38e5b24685
+  getBinDir :: GHC.Types.IO GHC.IO.FilePath
+ced91769d0b5c91a61b6d6eb4de813c3
+  getDataDir :: GHC.Types.IO GHC.IO.FilePath
+d3a790dfbcde8dcaa9d7410a28fe6dcc
+  getDataFileName :: GHC.IO.FilePath -> GHC.Types.IO GHC.IO.FilePath
+968e379aa611032bed64cf308c0bdbc0
+  getDynLibDir :: GHC.Types.IO GHC.IO.FilePath
+8404741904d1366e86365718c3809299
+  getLibDir :: GHC.Types.IO GHC.IO.FilePath
+ce29f49b71d419744d601ecddd624d94
+  getLibexecDir :: GHC.Types.IO GHC.IO.FilePath
+18b6f04f907d6be1d0f3e2a19aa812ba
+  getSysconfDir :: GHC.Types.IO GHC.IO.FilePath
+06633efa86b32b20fc6baa02faf074fc
+  version :: Data.Version.Version
+trusted: safe
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+
